@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+
+# Build / local dump / hardware artifacts (never commit raw SPI dumps or build temp files)
+build/
+logs/
+runs/
+test_images/
+do400_dump.bin
+*flash_2mb*.bin
+do400_current_image_*.bin
+*.elf
+*.xe
+*.dis
+*.o
+*.S
+
+# Audio test files
+*.flac
+*.wav
+*.dsf
+*.dff
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.log
